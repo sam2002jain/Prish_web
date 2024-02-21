@@ -1,0 +1,202 @@
+
+/* styling the section 2 company information */
+.typo2 {
+  white-space: nowrap;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.row-info h1 {
+  font-size: 44px;
+  color: rgb(32, 106, 143);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+}
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6rem;
+  position: relative;
+}
+.row-img img {
+  border-radius: 10px;
+  box-shadow: rgba(82, 82, 83, 0.2) 0px 7px 29px 0px;
+}
+
+.sec2 .text {
+  text-align: start;
+  font-size: 18px;
+  word-spacing: 3px;
+  color: rgb(99, 98, 98);
+  line-break: 5px;
+  position: relative;
+  transition: all 500ms ease;
+}
+
+/* styling the section 3 */
+.sec3 {
+  margin-top: 4rem; 
+  background-image: linear-gradient(rgb(252, 252, 252), rgb(92, 178, 228), rgb(53, 136, 224));
+  padding: 0 6rem;
+}
+.container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-about h1 {
+  font-size: 40px;
+  color: rgb(32, 106, 143);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.key-points-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 3px;
+}
+
+.text-sec3 {
+  margin-bottom: 3%;
+  font-size: 19px;
+  color: rgb(90, 90, 90);
+  font-weight: 500;
+  transition: all 500ms ease;
+}
+
+.more-info{
+  padding: 2rem;
+  margin-top: 2%;
+}
+
+/* styling the section 4 mision and vision content */
+
+.statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.statement h1 {
+  font-size: 40px;
+  color: rgb(32, 106, 143);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.statement p {
+  font-size: 19px;
+  color: rgb(53, 53, 53);
+  font-weight: 500;
+  transition: all 500ms ease;
+}
+.sec4 {
+  margin-top: 4rem;
+  padding: 0 6rem;
+}
+.sec4-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  margin-top: 1rem;
+}
+.sec4-content h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(21, 70, 95);
+}
+.sec4-content p {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(99, 98, 98);
+  line-break: 5px;
+  position: relative;
+  transition: all 500ms ease;
+  width: 50%;
+}
+
+@media  (max-width: 768px) {
+  .sec2{
+    padding: 0 2rem;
+    display: flex;
+  }
+  .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .row-info h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .sec2 .text {
+    font-size: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  .sec3 {
+    padding: 0 2rem;
+  }
+  .container-about h1 {
+    font-size: 30px;
+  }
+  .key-points-info {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .text-sec3 {
+    font-size: 16px;
+  }
+  .more-info{
+    padding: 1rem;
+  }
+  .statement h1 {
+    font-size: 30px;
+  }
+  .statement p {
+    font-size: 16px;
+  }
+  .sec4 {
+    padding: 0 2rem;
+  }
+  .sec4-content h1 {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+  }
+  .sec4-content p {
+    display: inline;
+    font-size: 16px;
+    justify-items: center;
+    text-align: center;
+  }
+  .sec4-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+  .row-img img {
+    width: 100%;
+  }
+  .typo2 {
+    margin-top: 60%;
+    margin-left: 2rem;
+  }
+  
+}

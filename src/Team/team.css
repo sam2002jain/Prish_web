@@ -1,0 +1,13 @@
+.typo8 {
+    white-space: nowrap;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  @media screen and (max-width: 600px) {
+    .typo8 {
+      white-space: nowrap;
+      margin-left: 5%;
+      margin-top: 50%;
+    }
+    
+  }

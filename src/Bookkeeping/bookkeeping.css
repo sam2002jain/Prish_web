@@ -1,0 +1,119 @@
+.typo4 {
+  white-space: nowrap;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.bookkeeping-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+}
+.bookkeeping-sec h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  font-size: 34px;
+  color: rgb(32, 106, 143);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.bookkeeping-img img {
+  border-radius: 4px;
+  box-shadow: 1px 4px 10px rgb(160, 160, 160);
+}
+.bookeeping-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+.bookkeeping-info h2 {
+  font-size: 36px;
+  color: rgb(32, 106, 143);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+}
+.text {
+  position: relative;
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(99, 98, 98);
+  line-height: 26px;
+}
+.bookkeeping-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bookkeeping-info-box h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(8, 8, 8);
+}
+
+.bookkeeping-container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4rem;
+}
+.bookkeeping-benefits h2 {
+  font-size: 36px;
+  color: rgb(32, 106, 143);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+}
+.bookkeeping-list li {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .typo4 {
+    white-space: normal;
+    margin-top: 60%;
+    margin-left: 2rem;
+  }
+  .bookkeeping-info-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bookkeeping-img img {
+    width: 100%;
+    margin-left: -2%;
+  }
+  .bookeeping-container-2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  }
+  .bookkeeping-info-box {
+    justify-content: flex-start;
+  }
+  .bookkeeping-container-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;  
+  }
+  .bookkeeping-sec h1 {
+    margin-top: 2rem;
+  }
+  .bookkeeping-info h2 {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .bookkeeping-benefits h2 {
+    font-size: 30px;
+  }
+  .bookkeeping-list li {
+    font-size: 18px;
+  }
+  
+}
